@@ -20,7 +20,7 @@ npm run develop
 Running via Earthly (to install, see [Earthly's Get Started](https://earthly.dev/get-earthly)):
 ```bash
 earthly run +update
-earthly run +devserver
+earthly run +dev
 ```
 For more information on how to use Earthly, see [our YamaCMS-specific documentation](https://docs.yama-cms.com/docs/guide/build-deploy-earthly/) or [the official Earthly documentation](https://docs.earthly.dev/basics).
 
