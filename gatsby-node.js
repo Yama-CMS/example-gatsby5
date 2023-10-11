@@ -51,7 +51,7 @@ exports.createPages = async function ({actions, graphql}) {
     for(const node of results.data.allFile.nodes) {
         const permalink = node.childMarkdownRemark.frontmatter.permalink;
         if (permalink == '/') {
-            return;
+            continue;
         }
 
         const component = require.resolve(`${__dirname}/src/pages/${node.sourceInstanceName}.js`);
