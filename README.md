@@ -1,8 +1,8 @@
-# Yama CMS Gatsby starter example
+# Yama CMS - Gatsby starter example
 
-This is a starter/example Gatsby repository, configured to interface with Yama-CMS.
+This is a starter/example Gatsby repository, configured to interface with Yama CMS.
 
-Yama-CMS will write .md files to ./content, so in `gatsby-config.js` we use the `gatsby-source-filesystem` plugin to read from the filesystem, along with the `gatsby-transformer-remark` plugin to parse markdown and frontmatters. Then in `gatsby-node.js`, we use [Gatsby's Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) to [create a page](https://www.gatsbyjs.com/docs/creating-and-modifying-pages/#creating-pages-in-gatsby-nodejs) for each Markdown file found.
+Yama CMS will write .md files to ./content, so in `gatsby-config.js` we use the `gatsby-source-filesystem` plugin to read from the filesystem, along with the `gatsby-transformer-remark` plugin to parse markdown and frontmatters. Then in `gatsby-node.js`, we use [Gatsby's Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) to [create a page](https://www.gatsbyjs.com/docs/creating-and-modifying-pages/#creating-pages-in-gatsby-nodejs) for each Markdown file found.
 
 Once you've wired up your repository with Yama CMS, delete the `./content/pages/README.md` and `./content/posts/README.md` files (they are included so that Gatsby can perform it's automatic schema inference if you run this project without any content), and update the configuration to match your needs. 
 
